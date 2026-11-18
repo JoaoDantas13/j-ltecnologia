@@ -356,18 +356,42 @@ svg.icon { width: 18px; height: 18px; flex-shrink: 0; }
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
-.marquee-chip {
+/* Logo tiles — every tile is the same size; each logo is scaled to fill it evenly */
+.logo-tile {
   flex-shrink: 0;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 14px 22px;
-  border-radius: 999px;
-  font-weight: 600;
-  font-size: 0.95rem;
-  color: var(--text);
+  width: 184px;
+  height: 92px;
+  padding: 14px 18px;
+  background: #ffffff;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.logo-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.logo-tile-text {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #1b2746;
+  letter-spacing: -0.01em;
   white-space: nowrap;
 }
-.marquee-chip small { color: var(--text-faint); font-weight: 500; }
+/* Per-logo tweaks: compensate for empty space inside the image files */
+.logo-onu { background: #0086cd; padding: 4px; }
+.logo-onu img { transform: scale(1.3); }
+.logo-cvc { background: #ffe600; padding: 4px; }
+.logo-cvc img { transform: scale(1.25); }
+.logo-sefaz { padding: 6px; }
+.logo-sefaz img { transform: scale(1.3); }
+.logo-carrefour img { transform: scale(1.5); }
+.logo-edenred img { transform: scale(1.22); }
+.logo-dotz { padding: 12px 22px; }
 
 .disclaimer {
   font-size: 0.78rem;

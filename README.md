@@ -60,7 +60,7 @@ vercel
 - **WhatsApp**: `wa.me/5511964667068` com mensagem pré-pronta.
 - **E-mail**: `jltecnologialtda2020@gmail.com`.
 - **Seção "Experiência"**: lista as organizações onde a equipe já atuou em
-  projetos (ONU/PNUD, Justiça Federal do Ceará, SEFAZ-RJ, EdenRed, ConectCar,
+  projetos (ONU/PNUD, SEFAZ-RJ, EdenRed,
   Banco Carrefour, CVC, Dotz), com um aviso abaixo deixando claro que isso é
   experiência profissional da equipe em projetos — não contratos diretos da
   J&L. **Importante**: mantenha esse aviso visível se adicionar mais nomes;
